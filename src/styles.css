@@ -1,0 +1,41 @@
+.App {
+  font-family: "Courier New", Courier, monospace;
+  color: whitesmoke;
+  text-align: center;
+  background-color: black;
+}
+.App > h2 {
+  color: whitesmoke;
+}
+.btn {
+  background-color: black;
+  border-block-end-color: white;
+  border-block-start-color: white;
+  border-radius: 20%;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+}
+.btn:hover {
+  color: grey;
+}
+.btn-login {
+  margin-inline-start: 35%;
+}
+.txtInput {
+  color: whitesmoke;
+  background-color: black;
+  padding: 0.3% 1%;
+}
+.txtInput:hover {
+  border-color: grey;
+}
+.txtLabel {
+  margin-inline-end: 1%;
+}
+.fpassWordLink {
+  margin-inline-start: 5%;
+  color: whitesmoke;
+}
+.fpassWordLink:hover {
+  color: grey;
+}
