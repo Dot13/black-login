@@ -39,3 +39,25 @@
 .fpassWordLink:hover {
   color: grey;
 }
+
+.nav-div {
+  display: table;
+  margin: 0;
+}
+.nav-ul {
+  list-style-type: none;
+}
+.nav-li {
+  border: 1px solid whitesmoke;
+  display: inline;
+  min-height: auto;
+  padding: 0 20px;
+}
+.nav-li a {
+  text-decoration-style: none;
+  text-decoration: none;
+  color: white;
+}
+.nav-li a:hover {
+  color: grey;
+}

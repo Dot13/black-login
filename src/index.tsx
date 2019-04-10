@@ -1,19 +1,19 @@
 import * as React from "react";
 import { render } from "react-dom";
-
+import Nav from "./Nav";
 import "./styles.css";
 
 function App() {
   return (
     <div className="App">
+      <Nav />
       <h4>Please login</h4>
-
-      <label for="nameInput" className="txtLabel">
+      <label htmlFor="nameInput" className="txtLabel">
         Username:{" "}
       </label>
       <input id="nameInput" name="nameInput" type="text" className="txtInput" />
       <br />
-      <label for="password" className="txtLabel">
+      <label htmlFor="password" className="txtLabel">
         Password:{" "}
       </label>
       <input
