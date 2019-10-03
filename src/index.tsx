@@ -25,10 +25,16 @@ function App() {
 
       <br />
       <br />
+      <div className='btn-cont'>
+      <div className='button-cont'>
       <button className="btn btn-login">Login</button>
-      <a className="fpassWordLink" href="">
+      </div>
+       <div className='reset-cont'>
+        <a className="fpassWordLink" href="#/">
         Forgot Password?
       </a>
+      </div>
+      </div>     
       <hr />
     </div>
   );
